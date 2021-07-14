@@ -3,7 +3,7 @@ const boton = document.getElementById("validar");
 const backBoton = document.getElementById("anotherCard");
 boton.addEventListener("click", function () {
     let numeroTarjeta = document.getElementById("cardNumber").value;
-    if (numeroTarjeta==""){
+    if (numeroTarjeta=="" || numeroTarjeta==0){
         document.getElementById("conditional").style.display= "block"
         document.getElementById("emptyInput").innerHTML =
         "Usted no ha ingresado un número de tarjeta. Favor de ingresarlo."
