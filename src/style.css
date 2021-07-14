@@ -1,9 +1,5 @@
 html{
-    background-color: rgb(255, 225, 239);
-    position: relative;
-    width: 1152px;
-    height: 700px;
-    z-index: -8;
+    background-image: url(https://img.freepik.com/free-vector/pink-marble-background-light-elegant-template_87408-118.jpg?size=626&ext=jpg);
 }
 #firstPage{
     display:block
@@ -64,12 +60,12 @@ html{
 }
 #slogan{
     position: absolute;
-    width: 350px;
+    width: 390px;
     height: 300px;
     left: 210px;
-    top: 280px;    
+    top: 290px;    
     font-family: Roboto Slab;
-    font-size: 28px;
+    font-size: 32px;
     line-height: 32px;
     align-items: center;
     text-align: center;
@@ -82,7 +78,7 @@ html{
     height: 265px;
     left: 750px;
     top: 180px;
-    background: linear-gradient(180deg, #001B33 0%, rgba(8, 96, 88, 0.913229) 52.6%, rgba(4, 175, 145, 0.86) 100%);
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-textura-marmol-verde-oscuro-piso-piedra-baldosas-naturales_38607-881.jpg?size=626&ext=jpg);
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     z-index: -10;
@@ -91,8 +87,8 @@ html{
     position: absolute;
     width: 40px;
     height: 35px;
-    left: 790px;
-    top: 220px;
+    left: 798px;
+    top: 227px;
     border: 1px solid #000000;
     border-radius: 4px;
     background-color: rgba(121, 94, 26, 0.966);
@@ -104,10 +100,10 @@ html{
     position: absolute;
     width: 320px;
     height: 300px;
-    left: 795px;
-    top: 260px;
+    left: 792px;
+    top: 270px;
     font-family: 'Rajdhani', sans-serif;
-    font-size: 18px;
+    font-size: 23px;
     Font-weight: bolder;
     line-height: 23px;
     align-items: flex-start;
@@ -142,9 +138,10 @@ html{
     position: absolute;
     width: 300px;
     height: 30px;
-    left: 800px;
+    left: 798px;
     top: 363px;
-    font-size: 15px;
+    font-size: 20px;
+    text-align:center;
     background: #ece2c688;
     border-radius: 4px;
     mix-blend-mode: hard-light;
@@ -152,7 +149,7 @@ html{
 #secondPage{
     display:none
 }
-#gracias{
+#thanks{
     position: absolute;
     width: 330px;
     height: 170px;
@@ -167,17 +164,17 @@ html{
     justify-content: center;
     align-items: center;
     color: #000000; 
-    background: rgba(22, 59, 115, 0.42);
+    background: rgba(22, 59, 115, 0.308);
     z-index: -9;
 }
 #finalResult{
     position: absolute;
-    width: 330px;
+    width: 350px;
     height: 300px;
     left: 210px;
     top: 260px;    
     font-family: 'Chakra Petch', sans-serif;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 32px;
     align-items: center;
     text-align: center;
@@ -185,16 +182,18 @@ html{
     display: flex;
 }
 .check{
-    width: 50px;
-    height: 50px;
-    left: 950px;
-    top: 480px;
+    position: absolute;
+    width: 120px;
+    height: 120px; 
+    left: 1000px;
+    top: 220px;
 }
 .equis{
-    width: 50px;
-    height: 50px; 
-    left: 950px;
-    top: 480px;
+    position: absolute;
+    width: 130px;
+    height: 130px; 
+    left: 985px;
+    top: 213px;
 }
 .backBoton{
     position: absolute;
