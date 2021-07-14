@@ -1,0 +1,221 @@
+html{
+    background-image: url(https://img.freepik.com/free-vector/pink-marble-background-light-elegant-template_87408-118.jpg?size=626&ext=jpg);
+}
+#firstPage{
+    display:block
+}
+#welcome{
+    position: absolute;
+    width: 340px;
+    height: 63px;
+    left: 95px;
+    top: 150px;
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000; 
+    background: rgba(22, 59, 115, 0.42);
+}
+#brandName{
+    position: absolute;
+    width: 297px;
+    height: 63px;
+    left: 380px;
+    top: 250px;
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+.circuleOne{
+    position: absolute;
+    width: 158px;
+    height: 160px;
+    left: 395px;
+    top: 130px;
+    display: flex;
+    background: rgba(81, 198, 177, 0.58);
+    border-radius: 88px;
+    z-index: -3;
+}
+.circuleTwo{
+    position: absolute;
+    width: 170px;
+    height: 180px;
+    left: 490px;
+    top: 190px;
+    display: flex;
+    background: rgba(244, 198, 33, 0.644);
+    border-radius: 88px;
+    z-index: -4;
+}
+#slogan{
+    position: absolute;
+    width: 390px;
+    height: 300px;
+    left: 210px;
+    top: 290px;    
+    font-family: Roboto Slab;
+    font-size: 32px;
+    line-height: 32px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    display: flex;
+}
+#cardBox{
+    position: absolute;
+    width: 402px;
+    height: 265px;
+    left: 750px;
+    top: 180px;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-textura-marmol-verde-oscuro-piso-piedra-baldosas-naturales_38607-881.jpg?size=626&ext=jpg);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    z-index: -10;
+}
+.chip{
+    position: absolute;
+    width: 40px;
+    height: 35px;
+    left: 798px;
+    top: 227px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    background-color: rgba(121, 94, 26, 0.966);
+}
+#conditional{
+    display: none;
+}
+#emptyInput{
+    position: absolute;
+    width: 320px;
+    height: 300px;
+    left: 792px;
+    top: 270px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 23px;
+    Font-weight: bolder;
+    line-height: 23px;
+    align-items: flex-start;
+    text-align: center;
+    color: #f3eec09f;
+    display: flex;
+}
+.botonValidar{
+    position: absolute;
+    width: 130px;
+    height: 41px;
+    left: 1000px;
+    top: 480px;
+    font-family: Lucida Sans Unicode;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #000000;
+    background-color: #F1BE0A;
+    border-radius: 6px;
+    border: 1px solid #000000;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.botonValidar:hover{
+    color: #000000;
+    background-color: #83c2b7;
+}
+.boxNumber{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 798px;
+    top: 363px;
+    font-size: 20px;
+    text-align:center;
+    background: #ece2c688;
+    border-radius: 4px;
+    mix-blend-mode: hard-light;
+}
+#secondPage{
+    display:none
+}
+#thanks{
+    position: absolute;
+    width: 330px;
+    height: 170px;
+    left: 85px;
+    top: 107px;
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 69px;
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    color: #000000; 
+    background: rgba(22, 59, 115, 0.308);
+    z-index: -9;
+}
+#finalResult{
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    left: 210px;
+    top: 260px;    
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 30px;
+    line-height: 32px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    display: flex;
+}
+.check{
+    position: absolute;
+    width: 120px;
+    height: 120px; 
+    left: 1000px;
+    top: 220px;
+}
+.equis{
+    position: absolute;
+    width: 130px;
+    height: 130px; 
+    left: 985px;
+    top: 213px;
+}
+.backBoton{
+    position: absolute;
+    width: 200px;
+    height: 41px;
+    left: 950px;
+    top: 480px;
+    font-family: Lucida Sans Unicode;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    color: #000000;
+    background-color: #F1BE0A;
+    border-radius: 6px;
+    border: 1px solid #000000;
+}
+.backBoton:hover{
+    color: #000000;
+    background-color: #83c2b7;
+}
