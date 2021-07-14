@@ -1,14 +1,50 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Verifi-Card</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Rajdhani:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div id="firstPage">
+      <h1 id="welcome">Bienvenido a</h1>
+      <p id="slogan">¡Recibe transacciones seguro! Valida las tarjetas de tus clientes.</p>
+      <div>
+        <input class="botonValidar" type="button" value="Validar" id="validar" />
+      </div>
+    </div>
+    <div id="brandName">Verifi-Card</div>
+    <div class="circuleOne"></div>
+    <div class="circuleTwo"></div>
+    <div id="conditional">
+      <p id="emptyInput"></p>
+    </div>
+  </header>
+  <main>
+    <label for="ingreso"></label>
+    <input class="boxNumber" type="text" id="cardNumber" name="cardNumber" placeholder="Número de tarjeta" />
+    <div id="cardBox"></div>
+    <img class="chip" src="imágenes/chip.png">
+    <div id="secondPage">
+      <h3 id="gracias">Gracias por confiar en</h3>
+      <p id="finalResult"></p>
+      <div id="check" hidden >
+        <img class="check" src="imágenes/check.png">
+      </div>
+      <div id="invalid" hidden>
+        <img class="equis" src="imágenes/equis.png">
+      </div>
+      <div>
+        <input class="backBoton" type="button" value="Valida otra tarjeta" id="anotherCard"/>
+      </div>
+    </div>
+  </main>
+  <footer></footer>
+  <script src="index.js" type="module"></script>
+</body>
 </html>
