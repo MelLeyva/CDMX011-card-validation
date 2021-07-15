@@ -1,6 +1,6 @@
 const validator = { 
     "isValid":function (showCardNumber){
-        let cardArray= Array.from(showCardNumber).reverse().map(Number)//defino mivariable del arreglo, aplicandole la reversa y map(Number) el cual me regres el arreglo invertido y con valores numéricos
+        const cardArray= Array.from(showCardNumber).reverse().map(Number)//defino mivariable del arreglo, aplicandole la reversa y map(Number) el cual me regres el arreglo invertido y con valores numéricos
         //console.log(cardArray)
         let total = 0//comienzo a realizar las operaciones y condicionales del algoritmo, comenzando de la posicion {0] al penultimo lugar o ultimo lugar (-1) y recorriendo de uno en uno
         for(let i=0; i<cardArray.length; i++){//inicia en la posición cero, lo que realice va a aplicarlo en todo el arreglo, de uno en uno
@@ -27,7 +27,7 @@ const validator = {
         }
     },//el isValid y maskafy son dos objetos que estoy obteniendo para validator, se separan con , 
     "maskify": function (hideCardNumber) {
-        let longitud= hideCardNumber.length//definir una variable con la longitud de mi STRING ORIGINAL
+        const longitud= hideCardNumber.length//definir una variable con la longitud de mi STRING ORIGINAL
         if(longitud<=4){//si..las longitudes iguales o menores a 4 de motraran completas
             return hideCardNumber //retorna el valor obtenido a index.js para ser usado 
         } else {//pero si...es mayor a 4 entonces...
