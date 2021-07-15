@@ -3,7 +3,7 @@ const validator = {
         let cardArray= Array.from(showCardNumber).reverse().map(Number)//defino mivariable del arreglo, aplicandole la reversa y map(Number) el cual me regres el arreglo invertido y con valores numéricos
         //console.log(cardArray)
         let total = 0//comienzo a realizar las operaciones y condicionales del algoritmo, comenzando de la posicion {0] al penultimo lugar o ultimo lugar (-1) y recorriendo de uno en uno
-        for(let i=0; i<cardArray.length; i++){
+        for(let i=0; i<cardArray.length; i++){//inicia en la posición cero, lo que realice va a aplicarlo en todo el arreglo, de uno en uno
             if(i %2===1){//Si..el módulo (residuo) de la posicion de cada arreglo es =1 
                 let dubleNumber=cardArray[i]*2;//defino una varibale que tome el valor de esa posición y lo duplique
                 //console.log(dubleNumber)
