@@ -11,7 +11,7 @@ boton.addEventListener("click", function () {
   //console.log(numeroTarjeta)
     const result = validator.isValid(numeroTarjeta);
     document.getElementById("firstPage").style.display = "none"
-    document.getElementById("conditional").style.display= "none"
+    document.getElementById("conditional").style.display = "none"
     document.getElementById("secondPage").style.display = "block"
     //envía los datos ingresados en carddNumber (cajita) a validator.js para ser ocupada en la función isValid
     //console.log (result)
@@ -36,7 +36,4 @@ backBoton.addEventListener("click", function () {
     document.getElementById("firstPage").style.display = "block";
     document.getElementById("cardNumber").value = "";
 });
-/*function (showResult) {
 
-            
-}*/
